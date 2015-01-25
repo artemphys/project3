@@ -1,0 +1,24 @@
+{
+  "tag": "a",
+  "content": "some content",
+  "attr":
+  {
+    "href": "URL",
+    "id": "button"
+  },
+  "events":
+  {
+    "click": "alert(this.href);",
+    "focus": "this.className=active",
+    "blur": "app.log(this)"
+  },
+  "style":
+  {
+    "width": "150px",
+    "height": "60px",
+    "backgroundColor": "#2FCAE1",
+    "padding": "40px 10px 0 55px",
+    "opacity": "0.5",
+    "border": "1px solid black",
+    "borderRadius": "8px"
+  }
